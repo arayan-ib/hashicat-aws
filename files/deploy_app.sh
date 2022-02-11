@@ -11,7 +11,9 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. â€œBetter days are coming. They are called Saturday and Sunday.â€ .
+  Welcome to ${PREFIX}'s app. <br>
+  
+  <h1> "œBetter days are coming. They are called Saturday and Sunday."</h1> 
   <!-- END -->
 
   </div>
